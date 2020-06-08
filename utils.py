@@ -54,7 +54,7 @@ def get_directory_files_size(directory):
     return sum(files_size)
 
 
-def download_files(urls):
+def download_files(urls: list):
     downloaded_files = []
     files_size = 0
     for url in urls:
